@@ -1,1 +1,2 @@
-echo -e "FROM alpine:latest\nCMD [\"echo\", \"Hello from my Docker image!\"]" > Dockerfile
+FROM alpine:latest
+CMD ["echo", "Hello from my Docker image!"]
